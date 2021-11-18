@@ -1,12 +1,11 @@
 <h1 align="center">Pustaka Booking</h1>
 
-<h2 align="center">Di Bangun Atas Dasar Module WebPro 2</h2>
+<h2 align="center">Di Bangun Atas Dasar Module WebPro 2 ubsi</h2>
 
 <ul>
     <li><h3>Cara Mengaktifkan<h3></li>
     <li><p>Php Yang di gunakan harus php versi 7 kebawah (apabila xampp nya menggunakan php versi 8 akan bermasalah)</p></li>
     <li><p>Buat database pustaka di phpmyadmin atau via terminal dengan menjalankan create database pustaka</p></li>
-    <li><p>import sql_import.sql ke dalam phpmyadmin agar dibuatkan tabel dan beberapa datanya</p></li>
-
-
+    <li><p>import sql_import.sql ke dalam phpmyadmin agar dibuatkan tabel dan default datanya</p></li>
+    <li><p>login sebagai administrator menggunakan <ul><li>email  : admin.pustaka@gmail.com</li> <li>Password : admin</li></ul></p></li>
 </ul>
