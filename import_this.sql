@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 18, 2021 at 06:35 PM
+-- Generation Time: Nov 18, 2021 at 07:10 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 7.3.31
 
@@ -214,7 +214,8 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`id`, `nama`, `alamat`, `email`, `image`, `password`, `role_id`, `is_active`, `tanggal_input`) VALUES
-(7, 'Admin Pustaka', '', 'admin.pustaka@gmail.com', 'pro1637256866.jpg', '$2y$10$U.4M3m0cWNXtxLixKESQ2e6Z.ltKJA8rahnEd4a7M1g3hJKYD35tq', 1, 1, 1637256382);
+(1, 'Admin Pustaka', '', 'admin.pustaka@gmail.com', 'default.jpg', '$2y$10$U.4M3m0cWNXtxLixKESQ2e6Z.ltKJA8rahnEd4a7M1g3hJKYD35tq', 1, 1, 1637256382),
+(2, 'Member Pustaka', '', 'member.pustaka@gmail.com', 'default.jpg', '$2y$10$2bp03GCr8Wkzpu5qrERmZOqShpn6kmJ6BHfsGvpqMqnnC4rbLjria', 2, 1, 1637258675);
 
 --
 -- Indexes for dumped tables
@@ -306,7 +307,7 @@ ALTER TABLE `temp`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
