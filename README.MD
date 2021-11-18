@@ -1,4 +1,4 @@
-<h1 align="center">Pustaka Booking</h1>
+<h1 align="center" style="color:red;">Pustaka Booking</h1>
 
 <h2 align="center">Di Bangun Atas Dasar Module WebPro 2 ubsi</h2>
 
